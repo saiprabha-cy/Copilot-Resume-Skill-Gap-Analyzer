@@ -1,89 +1,99 @@
 # Copilot-Resume-Skill-Gap-Analyzer
-Overview
+
+## Overview
 
 The Copilot Resume Skill Gap Analyzer is a Microsoft Copilot-style AI tool that analyzes a candidate's resume, compares it with a target job role, identifies skill gaps, and generates a structured 30-day learning roadmap. This project demonstrates the use of prompt engineering and large language models (LLMs) for real-world productivity and career guidance applications.
 
-Problem Statement
+---
+
+## Problem Statement
 
 Candidates often struggle to understand whether their resumes align with specific job roles. They are unaware of missing technical or soft skills, which reduces their chances of selection. Manually identifying skill gaps and creating a structured learning plan is time-consuming and error-prone.
 
-Solution
+---
+
+## Solution
 
 This project provides an AI-driven solution to:
 
-Extract technical and soft skills from a resume
+- Extract technical and soft skills from a resume
 
-Identify required skills for a target job role
+- Identify required skills for a target job role
 
-Highlight missing or weak skills
+- Highlight missing or weak skills
 
-Generate a 30-day learning roadmap to bridge skill gaps
+- Generate a 30-day learning roadmap to bridge skill gaps
 
-It demonstrates how Copilot-style AI can assist in career planning, skill improvement, and productivity enhancement.
+- It demonstrates how Copilot-style AI can assist in career planning, skill improvement, and productivity enhancement.
 
-Tech Stack
-
-Python 3.9+
-
-Streamlit — interactive web UI
-
-OpenAI / Azure OpenAI — LLM for Copilot-style prompting
-
-dotenv — secure API key management
-
-Features
-
-Easy-to-use web interface
-
-Structured skill gap analysis
-
-30-day actionable learning roadmap
-
-Graceful fallback if API quota is unavailable
-
-How to Run
-
-Clone the repository:
-
-git clone <your-repo-link>
-cd copilot-resume-analyzer
+---
 
 
-Install dependencies:
+## Tech Stack
 
-pip install -r requirements.txt
+- Python 3.9+
+
+- Streamlit — interactive web UI
+
+- OpenAI / Azure OpenAI — LLM for Copilot-style prompting
+
+- dotenv — secure API key management
+
+---
 
 
-Add your API key in .env:
+## Features
 
-OPENAI_API_KEY=your_api_key_here
+- Easy-to-use web interface
+
+- Structured skill gap analysis
+
+- 30-day actionable learning roadmap
+
+- Graceful fallback if API quota is unavailable
+
+---
 
 
-Run the Streamlit app:
+## How to Run
 
-streamlit run app.py
+- cd copilot-resume-analyzer
 
-Usage
+- pip install -r requirements.txt (Install dependencies)
 
-Paste your resume text in the text area
+- Add your API key in .env:
 
-Enter your target job role
+- Run the Streamlit app:
 
-Click Analyze with Copilot
+- streamlit run app.py
+
+---
+
+
+## Usage
+
+- Paste your resume text in the text area
+
+- Enter your target job role
+
+- Click Analyze with Copilot
 
 The tool generates:
 
-Extracted resume skills
+- Extracted resume skills
 
-Required skills for the job role
+- Required skills for the job role
 
-Missing / weak skills
+- Missing / weak skills
 
-30-day learning roadmap
+- 30-day learning roadmap
 
-(Include a screenshot of the output in GitHub for clarity)
+<img width="1920" height="1020" alt="Screenshot 2026-01-13 204510" src="https://github.com/user-attachments/assets/0d91a235-e123-4417-8546-4d8c21a1f5b8" />
 
-Sample Output
+---
+
+
+## Sample Output
 1. Extracted Resume Skills:
    - Technical Skills: Python, Machine Learning, Embedded Systems, MATLAB, RF Fundamentals
    - Soft Skills: Problem Solving, Analytical Thinking
@@ -102,24 +112,30 @@ Sample Output
    Week 3: Model deployment using Flask/FastAPI
    Week 4: Mini AI project + resume update
 
-Future Enhancements
+---
 
-Support for PDF resume uploads
 
-Integration with LinkedIn or job portals
+## Future Enhancements
 
-Personalized learning resource suggestions
+- Support for PDF resume uploads
 
-Multi-role comparison and tracking progress
+- Integration with LinkedIn or job portals
 
-Cloud deployment via Azure
+- Personalized learning resource suggestions
 
-References
+- Multi-role comparison and tracking progress
 
-Microsoft Copilot Documentation
+- Cloud deployment via Azure
 
-Streamlit Official Documentation
+---
 
-OpenAI Prompt Engineering Guides
 
-AI Applications in Career Guidance
+## References
+
+- Microsoft Copilot Documentation
+
+- Streamlit Official Documentation
+
+- OpenAI Prompt Engineering Guides
+
+- AI Applications in Career Guidance
